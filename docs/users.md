@@ -27,5 +27,7 @@ php src/herramientas/usuario.php desbloquear <nombre|ip>      # quita un bloqueo
 ## Primer ingreso
 El PIN provisorio activa `debe_cambiar`: hasta cambiarlo, el usuario no puede cargar notas, cambiar avatar ni usar el resto del sitio.
 
+Capturas (clic para agrandar): <a href="screenshots/07-adulto-resumen.png"><img src="screenshots/thumbs/07-adulto-resumen.jpg" alt="Resumen del adulto" width="320"></a> <a href="screenshots/08-adulto-accesos.png"><img src="screenshots/thumbs/08-adulto-accesos.jpg" alt="Registro de ingresos" width="320"></a>
+
 ## Qué ve cada rol
 Ver el cuadro de roles en el [README](../README.md#cómo-trabajan-los-adultos) y el detalle de las pantallas en [cómo funciona](how-it-works.md).

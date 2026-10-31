@@ -9,6 +9,8 @@
 4. **Rescatar:** para usar el dinero pide un **rescate** con un motivo (también desde una meta). El monto queda reservado.
 5. **Entregar:** un adulto lo aprueba y lo marca como entregado, por transferencia o en efectivo. El **Efectivo** que el hijo/a tiene en mano se lleva aparte.
 
+Capturas (clic para agrandar): <a href="screenshots/03-tablero-hijo.png"><img src="screenshots/thumbs/03-tablero-hijo.jpg" alt="Tablero del hijo/a" width="320"></a> <a href="screenshots/04-cargar-logro.png"><img src="screenshots/thumbs/04-cargar-logro.jpg" alt="Cargar una nota" width="320"></a> <a href="screenshots/05-metas-rescate.png"><img src="screenshots/thumbs/05-metas-rescate.jpg" alt="Metas y rescate" width="320"></a> <a href="screenshots/06-adulto-pendientes.png"><img src="screenshots/thumbs/06-adulto-pendientes.jpg" alt="Pendientes del adulto" width="320"></a>
+
 ## Premios por nota (valores de ejemplo)
 
 La tabla `premios` define cuánto paga cada nota. El esquema trae estos valores iniciales, que se editan desde Configuración:

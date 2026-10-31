@@ -47,4 +47,6 @@ dispositivo aproximado (navegador · sistema). Los adultos lo ven en su tablero.
 ## PIN provisorio
 Si un adulto pone un PIN con `usuario.php pin`, la cuenta queda con `debe_cambiar=1`: el usuario sólo puede **cambiar su PIN o salir** hasta elegir uno propio.
 
+Capturas (clic para agrandar): <a href="screenshots/01-ingreso.png"><img src="screenshots/thumbs/01-ingreso.jpg" alt="Pantalla de ingreso" width="320"></a>
+
 ![Flujos de ingreso y de recuperación del PIN](assets/02-login-y-recuperacion.png)

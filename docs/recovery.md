@@ -19,4 +19,6 @@ Todos los usuarios, adultos incluidos, pueden recuperar su PIN por mail si tiene
 - Cabeceras de mail saneadas (sin saltos de línea) y puntos iniciales escapados en el cuerpo SMTP.
 - Si la persona no tiene mail, un adulto le pone un PIN provisorio desde la línea de comandos.
 
+Capturas (clic para agrandar): <a href="screenshots/02-recuperacion.png"><img src="screenshots/thumbs/02-recuperacion.jpg" alt="Pantalla de recuperación" width="320"></a>
+
 ![Flujos de ingreso y de recuperación del PIN](assets/02-login-y-recuperacion.png)

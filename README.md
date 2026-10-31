@@ -19,7 +19,16 @@ Sitio web propio (PHP + MariaDB) con estética de plataforma de trading, pensado
 
 ## Cómo se ve
 
-Tablero de un hijo/a (ejemplo con datos ficticios): saldo, gráfico del mes, movimientos con su estado y una meta con barra de avance.
+Capturas del sitio funcionando, con usuarios y movimientos **ficticios** (Ana, Beto y Tutor). **Hacé clic en una miniatura para verla en tamaño completo.**
+
+<table>
+<tr><td align="center" valign="top"><a href="docs/screenshots/01-ingreso.png"><img src="docs/screenshots/thumbs/01-ingreso.jpg" alt="Ingreso: nombre y PIN de 6 dígitos" width="280"></a><br><sub>Ingreso: nombre y PIN de 6 dígitos</sub></td><td align="center" valign="top"><a href="docs/screenshots/02-recuperacion.png"><img src="docs/screenshots/thumbs/02-recuperacion.jpg" alt="Recuperación del PIN por mail" width="280"></a><br><sub>Recuperación del PIN por mail</sub></td><td align="center" valign="top"><a href="docs/screenshots/03-tablero-hijo.png"><img src="docs/screenshots/thumbs/03-tablero-hijo.jpg" alt="Tablero del hijo/a: saldo, gráfico y movimientos" width="280"></a><br><sub>Tablero del hijo/a: saldo, gráfico y movimientos</sub></td></tr>
+<tr><td align="center" valign="top"><a href="docs/screenshots/04-cargar-logro.png"><img src="docs/screenshots/thumbs/04-cargar-logro.jpg" alt="Cargar una nota con su premio" width="280"></a><br><sub>Cargar una nota con su premio</sub></td><td align="center" valign="top"><a href="docs/screenshots/05-metas-rescate.png"><img src="docs/screenshots/thumbs/05-metas-rescate.jpg" alt="Metas con barra de avance y pedido de rescate" width="280"></a><br><sub>Metas con barra de avance y pedido de rescate</sub></td><td align="center" valign="top"><a href="docs/screenshots/06-adulto-pendientes.png"><img src="docs/screenshots/thumbs/06-adulto-pendientes.jpg" alt="Adulto: aprobar, rechazar o corregir" width="280"></a><br><sub>Adulto: aprobar, rechazar o corregir</sub></td></tr>
+<tr><td align="center" valign="top"><a href="docs/screenshots/07-adulto-resumen.png"><img src="docs/screenshots/thumbs/07-adulto-resumen.jpg" alt="Adulto: resumen de saldos" width="280"></a><br><sub>Adulto: resumen de saldos</sub></td><td align="center" valign="top"><a href="docs/screenshots/08-adulto-accesos.png"><img src="docs/screenshots/thumbs/08-adulto-accesos.jpg" alt="Adulto: registro de ingresos" width="280"></a><br><sub>Adulto: registro de ingresos</sub></td><td align="center" valign="top"><a href="docs/screenshots/09-tablero-hijo-oscuro.png"><img src="docs/screenshots/thumbs/09-tablero-hijo-oscuro.jpg" alt="Tema oscuro" width="280"></a><br><sub>Tema oscuro</sub></td></tr>
+<tr><td align="center" valign="top"><a href="docs/screenshots/10-tablero-hijo-movil.png"><img src="docs/screenshots/thumbs/10-tablero-hijo-movil.jpg" alt="En el celular" width="240"></a><br><sub>En el celular</sub></td></tr>
+</table>
+
+Dibujo ilustrativo del tablero de un hijo/a:
 
 ![Tablero de ejemplo: saldo disponible, gráfico Este mes, últimos movimientos y meta Bicicleta al 65 %](docs/assets/04-grafico-saldo.png)
 
@@ -70,4 +79,4 @@ HTTPS, código y datos **fuera** de la carpeta web y recuperación del PIN por u
 
 - **Sí:** que el código es el de un sitio que usa una familia real, sin sus datos, nombres ni credenciales, y que pasa `php -l` en PHP 8.3.
 - **No:** que sea un producto listo para instalar con un clic, ni que sirva como servicio bancario. No hay pruebas automáticas en este
-  repositorio ni capturas reales (los dibujos son ilustrativos). Ver [`docs/limitations.md`](docs/limitations.md).
+  repositorio más pruebas visuales que estas capturas. Ver [`docs/limitations.md`](docs/limitations.md).
