@@ -1,0 +1,2 @@
+# Primera línea: carpeta de datos (fuera de la web) que contiene db.env y mail.env.
+SetEnv FAMILIA_DATOS /ruta/absoluta/a/familia-datos

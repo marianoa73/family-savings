@@ -1,0 +1,4 @@
+db.env
+mail.env
+*.log
+privado/
