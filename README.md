@@ -12,10 +12,10 @@ Sitio web propio (PHP + MariaDB) con estética de plataforma de trading, pensado
 2. **Idea:** un libro de cuentas familiar que **simula un banco**. Los adultos son los administradores; cada hijo/a tiene su
    cuenta, ve su saldo, su historial y sus metas.
 3. **Qué hace:** convierte los logros (notas, ayuda en la casa, estudio, regalos) en premios **visibles**, y completa el circuito:
-   **ganar → ahorrar → pedir el rescate → consumir**.
+   **ganar → ahorrar → pedir el rescate → obtener**.
 4. **Qué no es:** no se conecta a ningún banco ni guarda datos bancarios. Es un registro informativo; el dinero real lo entregan los adultos.
 
-![El circuito del ahorro: ganar, aprobar, ahorrar, pedir rescate, entregar y consumir](docs/assets/01-circuito-ahorro.png)
+![El circuito del ahorro: ganar, aprobar, ahorrar, pedir rescate, entregar y obtener](docs/assets/01-circuito-ahorro.png)
 
 ## Cómo se ve
 
