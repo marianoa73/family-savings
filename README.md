@@ -15,7 +15,23 @@ Sitio web propio (PHP + MariaDB) con estética de plataforma de trading, pensado
    **ganar → ahorrar → pedir el rescate → consumir**.
 4. **Qué no es:** no se conecta a ningún banco ni guarda datos bancarios. Es un registro informativo; el dinero real lo entregan los adultos.
 
-![Circuito: el hijo carga un logro, un adulto lo aprueba, suma al saldo, el hijo pide un rescate y un adulto lo entrega](docs/assets/flujo.svg)
+![El circuito del ahorro: ganar, aprobar, ahorrar, pedir rescate, entregar y consumir](docs/assets/01-circuito-ahorro.png)
+
+## Cómo se ve
+
+Tablero de un hijo/a (ejemplo con datos ficticios): saldo, gráfico del mes, movimientos con su estado y una meta con barra de avance.
+
+![Tablero de ejemplo: saldo disponible, gráfico Este mes, últimos movimientos y meta Bicicleta al 65 %](docs/assets/04-grafico-saldo.png)
+
+## Arquitectura
+
+El código de la aplicación, los datos y los secretos quedan **fuera** de la carpeta que publica el servidor web.
+
+![Arquitectura: navegador, carpeta web, aplicación PHP, MariaDB, carpeta de datos, SMTP y herramienta de línea de comandos](docs/assets/03-arquitectura.png)
+
+Ingreso y recuperación del PIN, en detalle en [`docs/login.md`](docs/login.md) y [`docs/recovery.md`](docs/recovery.md):
+
+![Flujos de ingreso y de recuperación del PIN](docs/assets/02-login-y-recuperacion.png)
 
 ## Qué aprenden los chicos
 
@@ -43,7 +59,7 @@ queda quién cargó, quién revisó y cuándo.
 - [`src/sql/`](src/sql/) esquema de MariaDB y migraciones; la aplicación las aplica sola al abrir la base.
 - [`src/herramientas/`](src/herramientas/) línea de comandos para crear usuarios y poner el PIN **sin eco** (`usuario.php`) y procesar fotos de notas.
 - [`examples/`](examples/) plantillas de configuración sin datos reales.
-- [`docs/`](docs/): [cómo funciona](docs/how-it-works.md), [seguridad](docs/security.md), [instalación](docs/install.md) y [límites](docs/limitations.md).
+- [`docs/`](docs/): [cómo funciona](docs/how-it-works.md), [ingreso](docs/login.md), [recuperación del PIN](docs/recovery.md), [alta de usuarios](docs/users.md), [seguridad](docs/security.md), [instalación](docs/install.md) y [límites](docs/limitations.md).
 
 ## Seguridad en una línea
 
@@ -54,4 +70,4 @@ HTTPS, código y datos **fuera** de la carpeta web y recuperación del PIN por u
 
 - **Sí:** que el código es el de un sitio que usa una familia real, sin sus datos, nombres ni credenciales, y que pasa `php -l` en PHP 8.3.
 - **No:** que sea un producto listo para instalar con un clic, ni que sirva como servicio bancario. No hay pruebas automáticas en este
-  repositorio ni capturas de pantalla (llevarían datos reales). Ver [`docs/limitations.md`](docs/limitations.md).
+  repositorio ni capturas reales (los dibujos son ilustrativos). Ver [`docs/limitations.md`](docs/limitations.md).

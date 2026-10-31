@@ -1,7 +1,7 @@
 # Límites
 
 - **No hay pruebas automáticas en este repositorio.** El sitio se probó durante el desarrollo con usuarios ficticios, pero esa batería no se incluye.
-- **No hay capturas de pantalla:** las del sitio en uso muestran datos de menores.
+- **Las imágenes son ilustraciones con datos ficticios, no capturas del sitio en uso** (mostrarían datos de menores).
 - **La interfaz está en español** y los montos están pensados en pesos argentinos.
 - **No es un servicio bancario:** no mueve dinero ni valida pagos; los adultos entregan el dinero real y lo registran.
 - **Subida de fotos:** tiene límite por cuenta y por hora, pero falta una cuota total de disco, limpieza de fotos huérfanas y límite por IP.
