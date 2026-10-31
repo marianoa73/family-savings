@@ -8,4 +8,4 @@
 - **Sin doble factor** de autenticación: el PIN de 6 dígitos con bloqueo es el único control de acceso.
 - **Instalación manual:** pensada para un hosting compartido con PHP y MariaDB; no hay instalador.
 - **Código sin framework:** la lógica y las vistas están en archivos PHP grandes, lo que dificulta tocarlos sin cuidado.
-- Se desarrolló con ayuda de asistentes de IA (ver [AI Operations Lab](https://github.com/marianoa73/ai-operations-lab)); la revisión y la publicación son humanas.
+- Se desarrolló con ayuda de asistentes de IA (ver [AI Split Raspberry Pi](https://github.com/marianoa73/ai-split-raspberry-pi)); la revisión y la publicación son humanas.
