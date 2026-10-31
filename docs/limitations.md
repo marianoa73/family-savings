@@ -1,6 +1,7 @@
 # Límites
 
 - **No hay pruebas automáticas en este repositorio.** El sitio se probó durante el desarrollo con usuarios ficticios, pero esa batería no se incluye.
+- **Cómo se sacaron las capturas:** con el HTML real que genera el PHP del proyecto (versión 8.4 en el entorno de prueba, mientras que el código se verificó con `php -l` en 8.3), mostrado en Chromium sin navegar por HTTPS. No son capturas de un navegador usando el sitio publicado.
 - **Las capturas son de una copia de prueba con datos ficticios**, no del sitio en uso (mostrarían datos de menores). En alguna aparecen recuadros vacíos donde el navegador de captura no tenía fuente de emojis, y textos del navegador en inglés ("Choose File").
 - **La interfaz está en español** y los montos están pensados en pesos argentinos.
 - **No es un servicio bancario:** no mueve dinero ni valida pagos; los adultos entregan el dinero real y lo registran.
