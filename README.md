@@ -15,11 +15,11 @@ A self-hosted website (PHP + MariaDB) styled like a trading platform, so childre
    **earn → save → request a withdrawal → get it**.
 4. **What it is not:** it does not connect to any bank or store banking data. It is an informational record; the adults hand over the real money.
 
-![The savings circuit: earn, approve, save, request a withdrawal, hand over and get it](docs/assets/01-circuito-ahorro.png)
+![The savings circuit: earn, approve, save, request a withdrawal, hand over and get it](docs/assets/01-circuito-ahorro.en.png)
 
 ## What it looks like
 
-Screenshots of the running site, with **fictional** users and entries (Ana, Beto and Tutor). **Click a thumbnail to see it full size.** Diagrams and screens are in Spanish; each one is described in its caption.
+Screenshots of the running site, with **fictional** users and entries (Ana, Beto and Tutor). **Click a thumbnail to see it full size.** Diagrams are in English; the screens show the site as it runs, in Spanish, and each one is described in its caption.
 
 <table>
 <tr><td align="center" valign="top"><a href="docs/screenshots/01-ingreso.png"><img src="docs/screenshots/thumbs/01-ingreso.jpg" alt="Login: name and 6-digit PIN" width="280"></a><br><sub>Login: name and 6-digit PIN</sub></td><td align="center" valign="top"><a href="docs/screenshots/02-recuperacion.png"><img src="docs/screenshots/thumbs/02-recuperacion.jpg" alt="PIN recovery by email" width="280"></a><br><sub>PIN recovery by email</sub></td><td align="center" valign="top"><a href="docs/screenshots/03-tablero-hijo.png"><img src="docs/screenshots/thumbs/03-tablero-hijo.jpg" alt="Child's dashboard: balance, chart and entries" width="280"></a><br><sub>Child's dashboard: balance, chart and entries</sub></td></tr>
@@ -30,17 +30,17 @@ Screenshots of the running site, with **fictional** users and entries (Ana, Beto
 
 Illustrative drawing of a child's dashboard:
 
-![Example dashboard: available balance, This month chart, latest entries and a Bicycle goal at 65 %](docs/assets/04-grafico-saldo.png)
+![Example dashboard: available balance, This month chart, latest entries and a Bicycle goal at 65 %](docs/assets/04-grafico-saldo.en.png)
 
 ## Architecture
 
 The application code, the data and the secrets stay **outside** the folder the web server publishes.
 
-![Architecture: browser, web folder, PHP application, MariaDB, data folder, SMTP and command-line tool](docs/assets/03-arquitectura.png)
+![Architecture: browser, web folder, PHP application, MariaDB, data folder, SMTP and command-line tool](docs/assets/03-arquitectura.en.png)
 
 Login and PIN recovery, in detail in [`docs/login.md`](docs/login.md) and [`docs/recovery.md`](docs/recovery.md) (Spanish):
 
-![Login and PIN recovery flows](docs/assets/02-login-y-recuperacion.png)
+![Login and PIN recovery flows](docs/assets/02-login-y-recuperacion.en.png)
 
 ## What children learn
 
