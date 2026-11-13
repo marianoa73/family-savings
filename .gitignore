@@ -2,3 +2,5 @@ db.env
 mail.env
 *.log
 privado/
+__pycache__/
+*.pyc

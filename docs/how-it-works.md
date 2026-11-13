@@ -1,5 +1,7 @@
 # Cómo funciona
 
+[English version](how-it-works.en.md)
+
 ## El circuito
 
 1. **Ganar:** el hijo/a carga un ingreso: nota del colegio (con foto opcional), tarea de la casa, regalo, venta de algo propio, cumpleaños o

@@ -1,5 +1,7 @@
 # Instalación
 
+[English version](install.en.md)
+
 Requisitos: **PHP 8.3** con GD (WebP), Fileinfo y EXIF, **MariaDB 10.11**, HTTPS y un hosting que permita variables de entorno en `.htaccess`.
 
 1. Crear una base de datos y su usuario vacíos.
